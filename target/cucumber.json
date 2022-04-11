@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3194187707,
+              "duration": 3174071703,
               "status": "passed"
             },
             "line": 4,
@@ -24,11 +24,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-04-10T07:12:59.902Z",
+        "start_timestamp": "2022-04-11T13:58:29.006Z",
         "before": [
           {
             "result": {
-              "duration": 1456537398,
+              "duration": 1159750999,
               "status": "passed"
             },
             "match": {
@@ -36,14 +36,14 @@
             }
           }
         ],
-        "line": 13,
+        "line": 14,
         "name": "To validate the positive login",
         "description": "",
         "id": "this-feature-would-be-used-to-design-the-login-page-of-the-application;to-validate-the-positive-login;;2",
         "after": [
           {
             "result": {
-              "duration": 72829417,
+              "duration": 76996643,
               "status": "passed"
             },
             "match": {
@@ -56,10 +56,10 @@
         "steps": [
           {
             "result": {
-              "duration": 246188109,
+              "duration": 213683612,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User enters Username \"standard_user\" and Password \"secret_sauce\"",
             "match": {
               "arguments": [
@@ -78,10 +78,10 @@
           },
           {
             "result": {
-              "duration": 150320115,
+              "duration": 132206041,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "User clicks on Login button",
             "match": {
               "location": "LoginSteps.user_clicks_on_login_button()"
@@ -90,15 +90,20 @@
           },
           {
             "result": {
-              "duration": 242061923,
+              "duration": 180138708,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "User lands on the Product Page",
             "match": {
               "location": "LoginSteps.user_lands_on_the_product_page()"
             },
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
           }
         ]
       },
@@ -111,7 +116,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3238759989,
+              "duration": 3169598859,
               "status": "passed"
             },
             "line": 4,
@@ -124,11 +129,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-04-10T07:13:05.296Z",
+        "start_timestamp": "2022-04-11T13:58:33.963Z",
         "before": [
           {
             "result": {
-              "duration": 815461316,
+              "duration": 779306266,
               "status": "passed"
             },
             "match": {
@@ -136,14 +141,14 @@
             }
           }
         ],
-        "line": 14,
+        "line": 15,
         "name": "To validate the positive login",
         "description": "",
         "id": "this-feature-would-be-used-to-design-the-login-page-of-the-application;to-validate-the-positive-login;;3",
         "after": [
           {
             "result": {
-              "duration": 68223409,
+              "duration": 70451801,
               "status": "passed"
             },
             "match": {
@@ -156,10 +161,10 @@
         "steps": [
           {
             "result": {
-              "duration": 220898752,
+              "duration": 206948487,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User enters Username \"problem_user\" and Password \"secret_sauce\"",
             "match": {
               "arguments": [
@@ -178,10 +183,10 @@
           },
           {
             "result": {
-              "duration": 137880046,
+              "duration": 109850084,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "User clicks on Login button",
             "match": {
               "location": "LoginSteps.user_clicks_on_login_button()"
@@ -190,227 +195,20 @@
           },
           {
             "result": {
-              "duration": 49009551,
+              "duration": 59017010,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "User lands on the Product Page",
             "match": {
               "location": "LoginSteps.user_lands_on_the_product_page()"
             },
             "keyword": "Then "
           }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "Open the Swag Labs application",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 3226657765,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "User is on SauceDemo login page",
-            "match": {
-              "location": "LoginSteps.user_is_on_saucedemo_login_page()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-04-10T07:13:09.828Z",
-        "before": [
-          {
-            "result": {
-              "duration": 884182282,
-              "status": "passed"
-            },
-            "match": {
-              "location": "BaseClass.setUp()"
-            }
-          }
         ],
-        "line": 23,
-        "name": "To validate the negative login",
-        "description": "",
-        "id": "this-feature-would-be-used-to-design-the-login-page-of-the-application;to-validate-the-negative-login;;2",
-        "after": [
+        "tags": [
           {
-            "result": {
-              "duration": 69739142,
-              "status": "passed"
-            },
-            "match": {
-              "location": "BaseClass.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 210183436,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "User enters Username \"simran\" and Password \"secret_sauce\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"simran\"",
-                  "offset": 21
-                },
-                {
-                  "val": "\"secret_sauce\"",
-                  "offset": 43
-                }
-              ],
-              "location": "LoginSteps.user_enters_something_and_something(String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 66834666,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "User clicks on Login button",
-            "match": {
-              "location": "LoginSteps.user_clicks_on_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 25768982,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "User gets the error message as \"Epic sadface: Username and password do not match any user in this service\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Epic sadface: Username and password do not match any user in this service\"",
-                  "offset": 31
-                }
-              ],
-              "location": "LoginSteps.user_gets_the_error_message_as_something(String)"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "Open the Swag Labs application",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 3241659678,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "User is on SauceDemo login page",
-            "match": {
-              "location": "LoginSteps.user_is_on_saucedemo_login_page()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-04-10T07:13:14.315Z",
-        "before": [
-          {
-            "result": {
-              "duration": 874307711,
-              "status": "passed"
-            },
-            "match": {
-              "location": "BaseClass.setUp()"
-            }
-          }
-        ],
-        "line": 24,
-        "name": "To validate the negative login",
-        "description": "",
-        "id": "this-feature-would-be-used-to-design-the-login-page-of-the-application;to-validate-the-negative-login;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 69450589,
-              "status": "passed"
-            },
-            "match": {
-              "location": "BaseClass.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 230512376,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "User enters Username \"random_user\" and Password \"secret_sauce\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"random_user\"",
-                  "offset": 21
-                },
-                {
-                  "val": "\"secret_sauce\"",
-                  "offset": 48
-                }
-              ],
-              "location": "LoginSteps.user_enters_something_and_something(String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 65365694,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "User clicks on Login button",
-            "match": {
-              "location": "LoginSteps.user_clicks_on_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 27995517,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "User gets the error message as \"Epic sadface: Username and password do not match any user in this service\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Epic sadface: Username and password do not match any user in this service\"",
-                  "offset": 31
-                }
-              ],
-              "location": "LoginSteps.user_gets_the_error_message_as_something(String)"
-            },
-            "keyword": "Then "
+            "name": "@Regression"
           }
         ]
       }
@@ -434,7 +232,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3244599815,
+              "duration": 3172414784,
               "status": "passed"
             },
             "line": 4,
@@ -446,7 +244,7 @@
           },
           {
             "result": {
-              "duration": 248434406,
+              "duration": 184117996,
               "status": "passed"
             },
             "line": 5,
@@ -468,7 +266,7 @@
           },
           {
             "result": {
-              "duration": 143172080,
+              "duration": 117292036,
               "status": "passed"
             },
             "line": 6,
@@ -481,11 +279,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-04-10T07:13:18.827Z",
+        "start_timestamp": "2022-04-11T13:58:38.362Z",
         "before": [
           {
             "result": {
-              "duration": 830823179,
+              "duration": 758314393,
               "status": "passed"
             },
             "match": {
@@ -493,14 +291,14 @@
             }
           }
         ],
-        "line": 8,
+        "line": 9,
         "name": "To validate the Product Prices",
         "description": "",
         "id": "this-feature-would-be-used-to-validate-the-product-prices;to-validate-the-product-prices",
         "after": [
           {
             "result": {
-              "duration": 71271383,
+              "duration": 67974769,
               "status": "passed"
             },
             "match": {
@@ -513,10 +311,10 @@
         "steps": [
           {
             "result": {
-              "duration": 196752612,
+              "duration": 186940848,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "User is on Products Page",
             "match": {
               "location": "ProductSteps.user_is_on_Products_Page()"
@@ -525,10 +323,10 @@
           },
           {
             "result": {
-              "duration": 70307350,
+              "duration": 75708366,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "User compare the following products price",
             "match": {
               "location": "ProductSteps.user_compare_the_following_products_price(DataTable)"
@@ -548,6 +346,11 @@
               }
             ],
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
           }
         ]
       }

@@ -2,7 +2,8 @@ Feature: This feature would be used to design the Login page of the application
 
   Background: Open the Swag Labs application
     Given User is on SauceDemo login page
-
+	
+	@Regression
   Scenario Outline: To validate the positive login
     When User enters Username "<username>" and Password "<password>"
     And User clicks on Login button
